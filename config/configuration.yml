@@ -1,0 +1,17 @@
+default: &DEFAULT
+  site:
+    title: Web Site
+    url: "http://localhost:3000" 
+  contact:
+    email: jefferson@egenial.com.br  
+development:
+  <<: *DEFAULT
+
+test:
+  <<: *DEFAULT
+  email:
+    delivery: test
+
+production:
+  <<: *DEFAULT
+  display_errors: false

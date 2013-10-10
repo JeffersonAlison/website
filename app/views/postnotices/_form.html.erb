@@ -1,4 +1,4 @@
-<%= form_for(@postnotice) do |f| %>
+<%= form_for(@postnotice, :html => {:multipart => true}) do |f| %>
   <% if @postnotice.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@postnotice.errors.count, "error") %> prohibited this postnotice from being saved:</h2>
@@ -19,17 +19,23 @@
     <%= f.label :content %><br />
     <%= f.text_area :content %>
   </div>
+    <div class="field">
+    <%= f.file_field :image %>
+
+    <%= f.label :remote_image_url, "Ou imagem URL" %>
+    <%= f.text_field :remote_image_url %>
+  </div>
   <div class="field">
     <%= f.label :author %><br />
     <%= f.text_field :author %>
   </div>
     <div class="field">
     <%= f.label :city %><br />
-    <%= f.select :city_id, City.all.collect {|c| [c.name, c.id]} %>
+    <%= f.select :city_id, City.all.collect {|c| [c.name, c.id]}, :prompt => "Escolher uma cidade"%>
   </div>
   <div class="field">
     <%= f.label :categorie %><br />
-    <%= f.select :categorie_id, Categorie.all.collect {|c| [c.name, c.id]} %>
+    <%= f.select :categorie_id, Categorie.all.collect {|c| [c.name, c.id]}, :prompt => "Escolher uma categoria" %>
   </div>
   <div class="actions">
     <%= f.submit %>

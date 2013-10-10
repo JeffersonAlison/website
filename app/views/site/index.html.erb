@@ -1,3 +1,51 @@
 <%= link_to "Noticias", postnotices_path%>
 <%= link_to "Cidades", cities_path%>
 <%= link_to "Categorias", categories_path%>
+
+
+ <!-- Start: MAIN CONTENT -->
+    <div class="content">
+      <!-- Start: slider -->
+      <div class="slider">
+        <div class="container-fluid">
+          <div id="heroSlider" class="carousel slide">
+            <div class="carousel-inner">
+              <% @postnotices.each_with_index do|post, index| %>
+	              <div class="item">
+	                <div class="hero-unit">
+	                  <div class="row-fluid">
+	                    <div class="span7 marketting-info">
+	                      <h1><%= post.title%></h1>
+	                      <%= index%>
+	                      <p>
+	                       <%= post.content%>
+	                       <p>
+	                      <h3>
+	                      	<%= link_to post, :class=>"btn" do%>
+								Ver mais
+	                      	<%end%>
+	                      </h3>                      
+	                    </div>
+	                    <div class="span5">
+	                      <%= image_tag post.image.to_s, :class => "thumbnail", :size => "450x390"%>
+	                    </div>
+	                  </div>                  
+	                </div>
+	              </div>
+              <%end%>
+             
+              </div>
+            </div>
+            <a class="left carousel-control" href="#heroSlider" data-slide="prev">‹</a>
+            <a class="right carousel-control" href="#heroSlider" data-slide="next">›</a>
+          </div>
+        </div>
+      </div>
+      <!-- End: slider -->
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+  var teste = jQuery.find(".item")[0]
+  jQuery(teste).addClass("active")
+})
+</script>

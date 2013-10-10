@@ -1,0 +1,19 @@
+default: &DEFAULT
+  site:
+    title: DB24
+    url: "http://localhost:3000" 
+    logo: "assets/logo-top-4station.png"
+  contact:
+    email: joel@egenial.com.br   
+  format_video_encode: '4:3'
+development:
+  <<: *DEFAULT
+
+test:
+  <<: *DEFAULT
+  email:
+    delivery: test
+
+production:
+  <<: *DEFAULT
+  display_errors: false

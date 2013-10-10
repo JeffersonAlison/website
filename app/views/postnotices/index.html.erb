@@ -4,6 +4,7 @@
   <tr>
     <th>Title</th>
     <th>Content</th>
+    <th>Imagem</th>
     <th>Author</th>
     <th>City</th>
     <th>Categorie</th>
@@ -16,10 +17,11 @@
   <tr>
     <td><%= postnotice.title %></td>
     <td><%= postnotice.content %></td>
+    <td><%= image_tag postnotice.image_url.to_s, :size => "40x40"%></td>
     <td><%= postnotice.author %></td>
     <td><%= postnotice.city.name %></td>
     <td><%= postnotice.categorie.name %></td>
-    <td><%= link_to 'Show', postnotice %></td>
+    <td><%= link_to 'Show', postnotice, :class => "btn btn-success" %></td>
     <td><%= link_to 'Edit', edit_postnotice_path(postnotice) %></td>
     <td><%= link_to 'Destroy', postnotice, method: :delete, data: { confirm: 'Are you sure?' } %></td>
   </tr>
