@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @postnotice.title %>
+</p>
+
+<p>
+  <b>Content:</b>
+  <%= @postnotice.content %>
+</p>
+
+<p>
+  <b>Author:</b>
+  <%= @postnotice.author %>
+</p>
+
+<p>
+  <b>City:</b>
+  <%= @postnotice.city.name %>
+</p>
+
+<p>
+  <b>Categorie:</b>
+  <%= @postnotice.categorie.name %>
+</p>
+
+
+<%= link_to 'Edit', edit_postnotice_path(@postnotice) %> |
+<%= link_to 'Back', postnotices_path %>

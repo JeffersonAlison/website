@@ -1,0 +1,31 @@
+<h1>Listing postnotices</h1>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Content</th>
+    <th>Author</th>
+    <th>City</th>
+    <th>Categorie</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @postnotices.each do |postnotice| %>
+  <tr>
+    <td><%= postnotice.title %></td>
+    <td><%= postnotice.content %></td>
+    <td><%= postnotice.author %></td>
+    <td><%= postnotice.city.name %></td>
+    <td><%= postnotice.categorie.name %></td>
+    <td><%= link_to 'Show', postnotice %></td>
+    <td><%= link_to 'Edit', edit_postnotice_path(postnotice) %></td>
+    <td><%= link_to 'Destroy', postnotice, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Postnotice', new_postnotice_path %>
