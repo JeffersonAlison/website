@@ -1,4 +1,5 @@
 <!-- Start: MAIN CONTENT -->
+<% if @postnotices.size > 0 %>
     <div class="content">
       <!-- Start: slider -->
       <div class="slider">
@@ -12,7 +13,7 @@
              	                <div class="hero-unit">
              	                  <div class="row-fluid">
              	                    <div class="span7 marketting-info">
-             	                      <h1><%= post.title%> <%= @postnotices.size%></h1>
+             	                      <h1><%= post.title%></h1>
              	                      <%= index%>
              	                      <p>
              	                       <%= post.content%>
@@ -39,4 +40,5 @@
           </div>
         </div>
       </div>
+      <%end%>
       <!-- End: slider -->

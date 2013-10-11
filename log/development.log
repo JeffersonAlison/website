@@ -23351,3 +23351,475 @@ Served asset /application.js - 304 Not Modified (2ms)
 
 Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 02:42:12 -0300
 Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Processing by SiteController#index as HTML
+  [1m[35mPostnotice Load (0.0ms)[0m  SELECT "postnotices".* FROM "postnotices" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered site/_menu.html.erb (40.0ms)
+  Rendered site/_slider.html.erb (1.0ms)
+  Rendered site/_last_notices.html.erb (0.0ms)
+  Rendered site/index.html.erb within layouts/application (45.0ms)
+Completed 200 OK in 60ms (Views: 57.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /bootstrap.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /site.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /cities.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-11 02:46:13 -0300
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 02:47:01 -0300
+Processing by SiteController#index as HTML
+  [1m[35mPostnotice Load (0.0ms)[0m  SELECT "postnotices".* FROM "postnotices" 
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered site/_menu.html.erb (2.0ms)
+  Rendered site/_slider.html.erb (1.0ms)
+  Rendered site/_last_notices.html.erb (0.0ms)
+  Rendered site/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 23ms (Views: 20.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /cities.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-11 02:47:02 -0300
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices" for 127.0.0.1 at 2013-10-11 02:47:07 -0300
+Processing by PostnoticesController#index as HTML
+  [1m[35mPostnotice Load (0.0ms)[0m  SELECT "postnotices".* FROM "postnotices" 
+  [1m[36mCity Load (0.0ms)[0m  [1mSELECT "cities".* FROM "cities" WHERE "cities"."id" = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (1.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  Rendered postnotices/index.html.erb within layouts/dashboard (6.0ms)
+Completed 200 OK in 24ms (Views: 21.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /categories.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /application.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 02:47:08 -0300
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started DELETE "/postnotices/2" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Processing by PostnoticesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FP737Bk/9jsB/mNs14CnH/11C/ssFhAFrRkXGflYPQ4=", "id"=>"2"}
+  [1m[36mPostnotice Load (1.0ms)[0m  [1mSELECT "postnotices".* FROM "postnotices" WHERE "postnotices"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mDELETE FROM "postnotices" WHERE "postnotices"."id" = ?[0m  [["id", 2]]
+  [1m[35m (143.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/postnotices
+Completed 302 Found in 150ms (ActiveRecord: 145.0ms)
+
+
+Started GET "/postnotices" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Processing by PostnoticesController#index as HTML
+  [1m[36mPostnotice Load (1.0ms)[0m  [1mSELECT "postnotices".* FROM "postnotices" [0m
+  Rendered postnotices/index.html.erb within layouts/dashboard (0.0ms)
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 02:47:12 -0300
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Processing by SiteController#index as HTML
+  [1m[35mPostnotice Load (1.0ms)[0m  SELECT "postnotices".* FROM "postnotices" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered site/_menu.html.erb (3.0ms)
+  Rendered site/_slider.html.erb (0.0ms)
+  Rendered site/_last_notices.html.erb (1.0ms)
+  Rendered site/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 29ms (Views: 26.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 02:47:19 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/postnotices/new" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Processing by PostnoticesController#new as HTML
+  [1m[35mCity Load (0.0ms)[0m  SELECT "cities".* FROM "cities" 
+  [1m[36mCategorie Load (1.0ms)[0m  [1mSELECT "categories".* FROM "categories" [0m
+  Rendered postnotices/_form.html.erb (6.0ms)
+  Rendered postnotices/new.html.erb within layouts/dashboard (8.0ms)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:23 -0300
+Served asset /application.js - 304 Not Modified (18ms)
+
+
+Started POST "/postnotices" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Processing by PostnoticesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"FP737Bk/9jsB/mNs14CnH/11C/ssFhAFrRkXGflYPQ4=", "postnotice"=>{"title"=>"Olha", "content"=>"kk", "image"=>#<ActionDispatch::Http::UploadedFile:0x3a0e960 @original_filename="edit.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"postnotice[image]\"; filename=\"edit.jpg\"\r\nContent-Type: image/jpeg\r\n", @tempfile=#<File:C:/Users/JEFFER~1/AppData/Local/Temp/RackMultipart20131011-2492-uihnoo>>, "remote_image_url"=>"", "author"=>"Jefferson", "city_id"=>"1", "categorie_id"=>"1", "featured"=>"1"}, "commit"=>"Create Postnotice"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "postnotices" ("author", "categorie_id", "city_id", "content", "created_at", "featured", "image", "title", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["author", "Jefferson"], ["categorie_id", 1], ["city_id", 1], ["content", "kk"], ["created_at", Fri, 11 Oct 2013 05:50:44 UTC +00:00], ["featured", true], ["image", "edit.jpg"], ["title", "Olha"], ["updated_at", Fri, 11 Oct 2013 05:50:44 UTC +00:00]]
+  [1m[35m (92.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/postnotices/3
+Completed 302 Found in 148ms (ActiveRecord: 94.0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (1.0ms)[0m  [1mSELECT "postnotices".* FROM "postnotices" WHERE "postnotices"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mCity Load (0.0ms)[0m  SELECT "cities".* FROM "cities" WHERE "cities"."id" = 1 LIMIT 1
+  [1m[36mCategorie Load (1.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (5.0ms)
+Completed 200 OK in 28ms (Views: 24.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /categories.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:44 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Processing by SiteController#index as HTML
+  [1m[35mPostnotice Load (1.0ms)[0m  SELECT "postnotices".* FROM "postnotices" 
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered site/_menu.html.erb (3.0ms)
+  Rendered site/_slider.html.erb (2.0ms)
+  Rendered site/_last_notices.html.erb (1.0ms)
+  Rendered site/index.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /bootstrap.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-11 02:50:47 -0300
+Served asset /rails.png - 304 Not Modified (0ms)
