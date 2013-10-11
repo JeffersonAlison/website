@@ -1,0 +1,27 @@
+// Place all the styles related to the dashboard controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.brand{
+	&:hover{
+		background:transparent;
+	}
+}
+
+.navbar{
+	.navbar-inner{
+		min-height: 86px;
+		.container{
+			width: 1170px;
+			.row-fluid{
+				margin-top: -17px;
+
+				div{
+					.nav{
+						margin-top: 21px;
+					}
+				}
+			}
+		}
+	}
+}

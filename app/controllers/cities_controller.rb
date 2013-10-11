@@ -1,7 +1,7 @@
 class CitiesController < ApplicationController
   # GET /cities
   # GET /cities.json
-
+  before_filter :authenticate_admin_user!
   layout "dashboard"
   def index
     @cities = City.all

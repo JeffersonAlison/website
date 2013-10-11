@@ -1,7 +1,7 @@
 default: &DEFAULT
   site:
     title: Web Site
-    url: "http://localhost:3000" 
+    url: "http://localhost:3001" 
   contact:
     email: jefferson@egenial.com.br  
 development:

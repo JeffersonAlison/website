@@ -1,7 +1,7 @@
 class PostnoticesController < ApplicationController
   # GET /postnotices
   # GET /postnotices.json
-
+  before_filter :authenticate_admin_user!, :except => [:show]
   layout "dashboard"
   def index
     @postnotices = Postnotice.all

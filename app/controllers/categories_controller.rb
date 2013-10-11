@@ -3,6 +3,9 @@ class CategoriesController < ApplicationController
   # GET /categories.json
 
   layout "dashboard"
+
+  before_filter :authenticate_admin_user!
+
   def index
     @categories = Categorie.all
 

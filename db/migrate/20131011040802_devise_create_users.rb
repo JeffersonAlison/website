@@ -6,7 +6,7 @@ class DeviseCreateUsers < ActiveRecord::Migration
       t.string :encrypted_password, :null => false, :default => ""
       t.string :name, :null => false, :default => ""
       t.string :login, :null => false, :default => ""
-      t.boolean :level, :default => 0
+      t.integer :level, :default => 0
       t.string :url_image
 
       ## Recoverable

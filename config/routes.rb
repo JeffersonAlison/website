@@ -1,9 +1,13 @@
 Website::Application.routes.draw do
 
 
-  devise_for :users, :path => 'usuarios', :path_names => {:sign_in => 'logar', :sign_out => 'sair', :sign_up => 'cadastrar'} do
-    get 'logout' => 'devise/sessions#destroy'
+  get "dashboard/index"
+
+  devise_for :users, :path => 'usuario', :path_names => {:sign_in => 'logar', :sign_out => 'sair', :sign_up => 'cadastrar'} do    get 'logout' => 'devise/sessions#destroy'
   end
+
+  match 'dashboard' => 'dashboard#index', :as => :dashboard
+
 
   resources :postnotices
 
