@@ -1,0 +1,16 @@
+<div class="row-fluid last-notices">
+	<div class="container">
+		<% @postnotices.reverse.take(4).each do |postnotice| %>
+		<div class="span3">
+			<div class="row-fluid img-last-notice"></div>
+			<div class="row-fluid content-last-notice">
+				<h2><%= postnotice.title%></h2>
+				<p><%= truncate(postnotice.content)%></p>
+				<%= link_to postnotice, :class => "btn" do%>
+					<span>leia mais</span>
+				<%end%>
+			</div>
+		</div>
+		<%end%>
+	</div>
+</div>

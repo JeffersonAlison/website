@@ -1,73 +1,8 @@
-<!-- Start: Navigation wrapper -->
-      <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <a href="<%=  APP_CONFIG['site']['url']%>" class="brand brand-bootbus">Jefferson Alison</a>
-            <!-- Below button used for responsive navigation -->
-            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!-- Start: Primary navigation -->
-            <div class="nav-collapse collapse">        
-              <ul class="nav pull-right">
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administração<b class="caret"></b></a>
-                  <ul class="dropdown-menu">
-                    <li class="nav-header">CADASTROS</li>
-                    <li><%= link_to "Noticias", postnotices_path%></li>           
-                    <li class="divider"></li>
-                    <li class="nav-header">SERVIÇOS</li>
-                    <li><%= link_to "Cidades", cities_path%></li>
-                    <li><%= link_to "Categorias", categories_path%></li>
-                  </ul>                  
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End: Navigation wrapper -->  
- <!-- Start: MAIN CONTENT -->
-    <div class="content">
-      <!-- Start: slider -->
-      <div class="slider">
-        <div class="container-fluid">
-          <div id="heroSlider" class="carousel slide">
-            <div class="carousel-inner">
-              <% @postnotices.each_with_index do|post, index| %>
-	              <div class="item">
-	                <div class="hero-unit">
-	                  <div class="row-fluid">
-	                    <div class="span7 marketting-info">
-	                      <h1><%= post.title%></h1>
-	                      <%= index%>
-	                      <p>
-	                       <%= post.content%>
-	                       <p>
-	                      <h3>
-	                      	<%= link_to post, :class=>"btn" do%>
-								Ver mais
-	                      	<%end%>
-	                      </h3>                      
-	                    </div>
-	                    <div class="span5">
-	                      <%= image_tag post.image.to_s, :class => "thumbnail", :size => "450x390"%>
-	                    </div>
-	                  </div>                  
-	                </div>
-	              </div>
-              <%end%>
-             
-              </div>
-            </div>
-            <a class="left carousel-control" href="#heroSlider" data-slide="prev">‹</a>
-            <a class="right carousel-control" href="#heroSlider" data-slide="next">›</a>
-          </div>
-        </div>
-      </div>
-      <!-- End: slider -->
+<%= render "site/menu"%>
+
+<%= render "site/slider"%>
+<%= render "site/last_notices"%>
+ 
 
 <script type="text/javascript">
 jQuery(document).ready(function(){

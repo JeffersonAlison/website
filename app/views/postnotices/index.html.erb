@@ -1,33 +1,47 @@
-<h1>Listing postnotices</h1>
-
-<table>
+<div class="container-fluid">
+    <div class="page-header">
+        <h1>Postagens</h1>
+        <div class="pull-right">
+            <%= link_to  new_postnotice_path, :class => "btn btn-success" do %>
+                <span class="icon-plus"></span>
+                Novo
+            <%end%>
+        </div>
+    </div>
+    <table class="table table-bordered">
   <tr>
-    <th>Title</th>
-    <th>Content</th>
-    <th>Imagem</th>
-    <th>Author</th>
-    <th>City</th>
-    <th>Categorie</th>
-    <th></th>
-    <th></th>
-    <th></th>
+    <th>Titulo</th>
+    <th>Conteúdo</th>
+    <th>Autor</th>
+    <th>Cidade</th>
+    <th>Categoria</th>
+    <th collspan="3">Ações</th>
   </tr>
 
 <% @postnotices.each do |postnotice| %>
   <tr>
     <td><%= postnotice.title %></td>
     <td><%= postnotice.content %></td>
-    <td><%= image_tag postnotice.image_url.to_s, :size => "40x40"%></td>
     <td><%= postnotice.author %></td>
     <td><%= postnotice.city.name %></td>
     <td><%= postnotice.categorie.name %></td>
-    <td><%= link_to 'Show', postnotice, :class => "btn btn-success" %></td>
-    <td><%= link_to 'Edit', edit_postnotice_path(postnotice) %></td>
-    <td><%= link_to 'Destroy', postnotice, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    <td class="actions-table">
+        <%= link_to postnotice, :class => "btn btn-info", :title => "Visualizar" do%>
+            <span class="icon-zoom-in"></span>
+        <%end%>
+    </td>
+    <td class="actions-table">
+        <%= link_to edit_postnotice_path(postnotice), :class => "btn btn-warning", :title => "Editar" do%>
+            <span class="icon-edit"></span>
+        <%end%>
+    </td>
+    <td class="actions-table">
+        <%= link_to postnotice, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger", :title => "Excluir" do %>
+            <span class="icon-trash"></span>
+        <%end%>
+    </td>
   </tr>
 <% end %>
 </table>
 
-<br />
-
-<%= link_to 'New Postnotice', new_postnotice_path %>
+</div>

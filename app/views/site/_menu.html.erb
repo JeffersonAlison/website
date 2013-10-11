@@ -1,0 +1,43 @@
+<!-- Start: Navigation wrapper -->
+      <div class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container">
+            <a href="<%=  APP_CONFIG['site']['url']%>" class="brand brand-bootbus">Jefferson Alison</a>
+            <!-- Below button used for responsive navigation -->
+            <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!-- Start: Primary navigation -->
+            <div class="nav-collapse collapse">        
+              <ul class="nav pull-right">
+                <li class="dropdown">
+                  <% if user_signed_in? %>
+      Logado como  <%= image_tag avatar_url(current_user).to_s %><%= current_user.email %>. Não é você?
+      <%= link_to 'Sair', logout_path%>
+      </br>
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administração<b class="caret"></b></a>
+                  <ul class="dropdown-menu">
+                    <li class="nav-header">CADASTROS</li>
+                    <li><%= link_to "Noticias", postnotices_path%></li>           
+                    <li class="divider"></li>
+                    <li class="nav-header">SERVIÇOS</li>
+                    <li><%= link_to "Cidades", cities_path%></li>
+                    <li><%= link_to "Categorias", categories_path%></li>
+                  </ul>  
+    <% else %>
+      <%= link_to 'Cadastrar', new_user_registration_path %> ou <%= link_to 'Logar', new_user_session_path %>
+    <% end %>  
+
+
+
+                                  
+                </li>
+              </ul>
+      
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End: Navigation wrapper -->  

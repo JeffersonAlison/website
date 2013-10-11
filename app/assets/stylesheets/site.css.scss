@@ -1,3 +1,86 @@
 // Place all the styles related to the site controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+// Place all the styles related to the site controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.none{
+	display: none;
+}
+.anuncios{
+	padding: 20px 0;
+	margin-top: 40px;
+
+	.span3{
+		border: 4px solid #1a6364;
+		height: 130px;
+
+		h2{
+			color: #4fa3a4;
+			margin: -5px 0;
+			line-height: 0;
+			position: relative;
+			top: 50%;
+			text-align: center;
+		}
+	}
+}
+
+.slider-notice-out{
+	height: 400px;
+	background: #ccc;
+	.container{
+		.slider-notice-in{
+			height:100%;
+			display:block;
+		}
+	}
+}
+
+.last-notices{
+	padding: 30px 0;
+	background: #f2f2f2;
+
+	.span3{
+		border-radius: 5px;
+		height: 270px;
+		box-shadow: 1px 1px 3px #222;
+		.img-last-notice{
+			border-radius: 5px 5px 0 0;
+			height: 47%;
+			background: url(/assets/rails.png);
+			border-bottom: 1px solid #ccc;
+		}
+		.content-last-notice{
+			border-radius: 0 0 5px 5px;
+			height: 53%;
+			background: #fff;
+			overflow: hidden;
+			h2{
+				line-height: 1px;
+				font-size: 23px;
+				margin: 15px 10px;
+			}
+			p{
+				margin: 0 10px;
+			}
+
+			a{
+				position: relative;
+			    top: 62px;
+			    width: 100%;
+			    border-radius: 0px;
+			    
+			    span{
+			    	left: -7px;
+    				position: relative;
+			    }
+			}
+		}
+	}
+}
+
+.hero-unit{
+	border-radius: 0
+}

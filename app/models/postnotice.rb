@@ -1,6 +1,6 @@
 class Postnotice < ActiveRecord::Base
   belongs_to :city
   belongs_to :categorie
-  attr_accessible :author, :content, :title, :categorie_id, :city_id, :image, :remote_image_url
+  attr_accessible :author, :content, :title, :categorie_id, :city_id, :image, :remote_image_url, :featured
   mount_uploader :image, ImageUploader
 end

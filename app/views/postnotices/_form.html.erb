@@ -37,6 +37,10 @@
     <%= f.label :categorie %><br />
     <%= f.select :categorie_id, Categorie.all.collect {|c| [c.name, c.id]}, :prompt => "Escolher uma categoria" %>
   </div>
+  <div class="field">
+    <%= f.label :featured %><br />
+    <%= f.check_box :featured%>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
