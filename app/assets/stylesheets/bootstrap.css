@@ -8,6 +8,23 @@
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
 
+#wrap {
+    height: auto !important;
+    margin: 0 auto -60px;
+    min-height: 100%;
+}
+
+#footer {
+    background-color: #F5F5F5;
+}
+#push, #footer {
+    height: 60px;
+}
+
+html, body {
+    height: 100%;
+}
+
 article,
 aside,
 details,

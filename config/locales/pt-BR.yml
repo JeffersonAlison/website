@@ -1,0 +1,340 @@
+pt-BR: 
+  acess: "<i class='icon-share-alt' style='margin-top: 2.9px;'></i> Acessar"  
+  previews: "<i class='icon-eye-open'></i> Preview"
+  view: "<i class='icon-eye-open' style='margin-top: 2.9px;'></i> Visualizar"
+  finalized: "<i class='icon-eye-open'></i> Encerrado"
+  load: "<i class='icon-eye-open'></i> Aguarde"
+  finalize: "<i class='icon-off'></i> Finalizar"
+  restart: "<i class='icon-repeat'></i> Reiniciar"
+  start:  "<i class='icon-play-circle'></i> Iniciar"
+  webinars: "<i class='icon-folder-close'></i> Webinars"
+  valid: "<i class='icon-refresh'></i> Validar"
+  modules: "<i class='icon-th-list'></i> Módulos"
+  videos: "<i class='icon-facetime-video'></i> Vídeos"
+  users: "<i class='icon-user'></i> Usuários"
+  configuration: "<i class='icon-wrench'></i> Configurações"
+  custom: "<i class='icon-tint'></i> Personalização"
+  custom_report: "<i class='icon-tasks'></i> Testes A/B"
+  download: "<i class='icon-download-alt'></i> Download"
+  attach: "<i class='icon-file'></i> Anexar"
+  up_position: "<i class='icon-arrow-up'></i>"
+  down_position: "<i class='icon-arrow-down'></i>"
+  attachment: "<i class='icon-file'></i> Arquivos<span style='position: relative; right: -32px' class='label label-%{class}'>%{amount}</span>"    
+  search: "<i class='icon-search'></i> Buscar"
+  back: "<i class='icon-reply'></i> Voltar"
+  edit: "<i class='icon-edit' title='Editar'></i> Editar"
+  show: "<i class='icon-eye-open' style='margin-top: 2.9px;' title='Visualizar'></i> Visualizar"
+  delete: "<i class='icon-trash'></i> Excluir"
+  new: "<i class='icon-plus'></i> Cadastrar"
+  export: "<i class='icon-download icon-white'></i> Exportar"
+  create_success: "Cadastro realizado com sucesso"
+  manage_account_success: "Usuário atualizado com sucesso"
+  update_success: "Alteração realizada com sucesso"
+  single_user_is_not_deleted: "Exclusão não efetuada por ser o único usuário cadastrado!"
+  page_prevent_delete: "Página bloqueada para exclusão"
+  file_size: "Tamanho do arquivo"
+  file_paths: "Endereço(s) do(s) arquivo(s)"
+  publish: "Publicar"
+  save_with_draft: "Salvar como rascunho"
+  save: "<span class='icon-save'></span> Salvar"
+  launch_diaries_location: "<i class='icon-list-alt icon-white'></i>Lançar diária"
+  of: de
+  to: para
+  date:
+    abbr_day_names:
+    - Dom
+    - Seg
+    - Ter
+    - Qua
+    - Qui
+    - Sex
+    - Sáb
+    abbr_month_names:
+    - 
+    - Jan
+    - Fev
+    - Mar
+    - Abr
+    - Mai
+    - Jun
+    - Jul
+    - Ago
+    - Set
+    - Out
+    - Nov
+    - Dez
+    day_names:
+    - Domingo
+    - Segunda
+    - Terça
+    - Quarta
+    - Quinta
+    - Sexta
+    - Sábado
+    formats:
+      default: ! '%d/%m/%Y'
+      long: ! '%d de %B de %Y'
+      short: ! '%d de %B'
+    month_names:
+    - 
+    - Janeiro
+    - Fevereiro
+    - Março
+    - Abril
+    - Maio
+    - Junho
+    - Julho
+    - Agosto
+    - Setembro
+    - Outubro
+    - Novembro
+    - Dezembro
+    order:
+    - :day
+    - :month
+    - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: aproximadamente 1 hora
+        other: aproximadamente %{count} horas
+      about_x_months:
+        one: aproximadamente 1 mês
+        other: aproximadamente %{count} meses
+      about_x_years:
+        one: aproximadamente 1 ano
+        other: aproximadamente %{count} anos
+      almost_x_years:
+        one: quase 1 ano
+        other: quase %{count} anos
+      half_a_minute: meio minuto
+      less_than_x_minutes:
+        one: menos de um minuto
+        other: menos de %{count} minutos
+      less_than_x_seconds:
+        one: menos de 1 segundo
+        other: menos de %{count} segundos
+      over_x_years:
+        one: mais de 1 ano
+        other: mais de %{count} anos
+      x_days:
+        one: 1 dia
+        other: ! '%{count} dias'
+      x_minutes:
+        one: 1 minuto
+        other: ! '%{count} minutos'
+      x_months:
+        one: 1 mês
+        other: ! '%{count} meses'
+      x_seconds:
+        one: 1 segundo
+        other: ! '%{count} segundos'
+    prompts:
+      day: Dia
+      hour: Hora
+      minute: Minuto
+      month: Mês
+      second: Segundo
+      year: Ano
+  errors: &errors
+    format: ! '%{attribute} %{message}'
+    messages:
+      accepted: deve ser aceito
+      blank: não pode ficar em branco
+      confirmation: não está de acordo com a confirmação
+      empty: não pode ficar vazio
+      equal_to: deve ser igual a %{count}
+      even: deve ser par
+      exclusion: não está disponível
+      greater_than: deve ser maior que %{count}
+      greater_than_or_equal_to: deve ser maior ou igual a %{count}
+      inclusion: não está incluído na lista
+      invalid: não é válido
+      less_than: deve ser menor que %{count}
+      less_than_or_equal_to: deve ser menor ou igual a %{count}
+      not_a_number: não é um número
+      not_an_integer: não é um número inteiro
+      not_saved: ""
+      not_found: não encontrado
+      odd: deve ser ímpar
+      record_invalid: ! 'A validação falhou: %{errors}'
+      taken: já está em uso
+      too_long: ! 'é muito longo (máximo: %{count} caracteres)'
+      too_short: ! 'é muito curto (mínimo: %{count} caracteres)'
+      wrong_length: não possui o tamanho esperado (%{count} caracteres)
+    template:
+      body: ! 'Por favor, verifique o(s) seguinte(s) campo(s):'
+      header:
+        one: ! 'Não foi possível gravar %{model}: 1 erro'
+        other: ! 'Não foi possível gravar %{model}: %{count} erros.'
+  helpers:
+    select:
+      prompt: Por favor selecione
+    submit:
+      create: Cadastrar %{model}
+      submit: Salvar %{model}
+      update: Atualizar %{model}
+  number:
+    currency:
+      format:
+        delimiter: .
+        format: ! '%u %n'
+        precision: 2
+        separator: ! ','
+        significant: false
+        strip_insignificant_zeros: false
+        unit: R$
+    format:
+      delimiter: .
+      precision: 3
+      separator: ! ','
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: ! '%n %u'
+        units:
+          billion:
+            one: bilhão
+            other: bilhões
+          million:
+            one: milhão
+            other: milhões
+          quadrillion:
+            one: quatrilhão
+            other: quatrilhões
+          thousand: mil
+          trillion:
+            one: trilhão
+            other: trilhões
+          unit: ''
+      format:
+        delimiter: .
+        precision: 2
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: ! '%n %u'
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: .
+    precision:
+      format:
+        delimiter: .
+  support:
+    array:
+      last_word_connector: ! ' e '
+      two_words_connector: ! ' e '
+      words_connector: ! ', '
+  time:
+    am: ''
+    formats:
+      default: ! '%A, %d de %B de %Y, %H:%M h'
+      long: ! '%A, %d de %B de %Y, %H:%M h'
+      short: ! '%d/%m, %H:%M h'
+    pm: ''
+  # remove these aliases after 'activemodel' and 'activerecord' namespaces are removed from Rails repository
+  activemodel:
+    errors:
+      <<: *errors
+  activerecord:
+    errors:
+      <<: *errors
+    models:
+      user: Membro
+      account: Membro     
+      video: Vídeo
+      city: Cidade
+      postnotice: Postagem
+      category: Categoria
+      commercial_video: Vídeo comercial      
+    attributes:       
+      user:
+        name: Nome
+        email: E-mail
+        password: Senha
+        password_confirmation: Cofirmar senha
+        sign_in_count: Número de acessos
+        level: Nível  
+        opt_in: Confirmado
+        registered: Matriculado
+        released: Liberado
+        step: Passo
+      city:
+          name: Nome
+          uf: UF
+      postnotice:      
+          title: Título
+          content: Conteúdo   
+          image: Imagem
+          author: Autor
+          city: Cidade
+          categorie: Categoria
+          featured: Destaque 
+      category:      
+          title: Título
+      commercial_video:
+          title: Título
+          before_video: Pré vídeo  
+          archive_file_name: Arquivo
+      video:
+          name: Nome
+          title: Título
+          description: Descrição
+          category_id: Categoria
+          enable_comment: Permitir comentário
+          enable_download: Permitir download
+          quiz_id: quiz
+          banner_id: banner
+          super_banner_id: Super banner
+          before_commercial_id: Pré vídeo
+          after_commercial_id: Pós vídeo
+          user_id: Usuário
+          published: Publicado
+          views: Visualizações
+          publication_date: Data de publicação
+  devise:
+    failure:
+      already_authenticated: 'Você já está logado.'
+      unauthenticated: 'Você precisa fazer login para continuar.'
+      unconfirmed: 'Você tem que confirmar a sua conta antes de continuar.'
+      locked: 'Sua conta esta bloqueada.'
+      invalid: 'E-mail ou senha inválidos.'
+      invalid_token: 'Token de autenticação inválido.'
+      timeout: 'Sua sessão expirou, por favor faça login novamente para continuar.'
+      inactive: 'Sua conta não esta ativa ainda.'
+    sessions:
+      signed_in: 'Logado com sucesso'
+      signed_out: 'Deslogado com sucesso.'
+    passwords:
+      send_instructions: 'Você receberá um email com instruções sobre como redefinir sua senha em alguns minutos.'
+      updated: 'Sua senha foi alterada com sucesso.'
+    confirmations:
+      send_instructions: 'Você receberá um email com instruções sobre como confirmar a sua conta em poucos minutos.'
+      confirmed: 'Sua conta foi confirmada com sucesso.'
+    registrations:
+      signed_up: 'Bem-vindo! Você se logou com sucesso.'
+      inactive_signed_up: 'Você logou com sucesso. No entanto, não poderia assinar porque sua conta é %{reason}.'
+      updated: 'Você atualizou a sua conta com sucesso.'
+      destroyed: 'Tchau! Sua conta foi cancelada com sucesso. Esperamos vê-lo novamente em breve.'
+    unlocks:
+      send_instructions: 'Você receberá um email com instruções sobre como desbloquear a sua conta em poucos minutos.'
+      unlocked: 'Sua conta foi desbloqueado com sucesso.'
+    omniauth_callbacks:
+      success: 'Autorizado com sucesso a partir da conta %{kind}.'
+      failure: 'Não poderia autorizá-lo a partir de %{kind} por causa "%{reason}".'
+    mailer:
+      confirmation_instructions:
+        subject: 'Instruções de confirmação'
+      reset_password_instructions:
+        subject: 'Instruções para redefinir senha.'
+      unlock_instructions:
+        subject: 'Desbloquear instruções'

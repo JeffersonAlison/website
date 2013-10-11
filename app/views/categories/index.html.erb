@@ -1,23 +1,38 @@
-<h1>Listing categories</h1>
+<div class="container-fluid">
+    <div class="page-header">
+        <h1>Categorias</h1>
+        <div class="pull-right">
+            <%= link_to  new_category_path, :class => "btn btn-success" do %>
+                <span class="icon-plus"></span>
+                Novo
+            <%end%>
+        </div>
+    </div>
+    <table class="table table-bordered">
+      <tr>
+        <th>Nome</th>
+        <th collspan="3"></th>
+      </tr>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @categories.each do |category| %>
-  <tr>
-    <td><%= category.name %></td>
-    <td><%= link_to 'Show', category %></td>
-    <td><%= link_to 'Edit', edit_category_path(category) %></td>
-    <td><%= link_to 'Destroy', category, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New Categorie', new_category_path %>
+      <% @categories.each do |category| %>
+        <tr>
+          <td><%= category.name %></td>
+          <td class="actions-table">
+              <%= link_to category, :class => "btn btn-info", :title => "Visualizar" do%>
+                  <span class="icon-zoom-in"></span>
+              <%end%>
+          </td>
+          <td class="actions-table">
+              <%= link_to edit_category_path(category), :class => "btn btn-warning", :title => "Editar" do%>
+                  <span class="icon-edit"></span>
+              <%end%>
+          </td>
+          <td class="actions-table">
+              <%= link_to category, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger", :title => "Excluir" do %>
+                  <span class="icon-trash"></span>
+              <%end%>
+          </td>
+        </tr>
+      <% end %>
+    </table>
+</div>

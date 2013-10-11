@@ -7,8 +7,38 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<div id="wrap">
 
-<%= yield %>
+    <%= yield %>
+      <div id="push"></div>
+    </div>
 
+
+<div id="footer">
+      <div class="container">
+        <p class="muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+      </div>
+    </div>
+
+<style type="text/css">
+	
+#wrap {
+    height: auto !important;
+    margin: 0 auto -60px;
+    min-height: 100%;
+}
+
+#footer {
+    background-color: #F5F5F5;
+}
+#push, #footer {
+    height: 60px;
+}
+
+html, body {
+    height: 100%;
+}
+
+</style>
 </body>
 </html>

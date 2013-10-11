@@ -1,25 +1,40 @@
-<h1>Listing cities</h1>
+<div class="container-fluid">
+  <div class="page-header">
+      <h1>Cidades</h1>
+      <div class="pull-right">
+          <%= link_to  new_city_path, :class => "btn btn-success" do %>
+              <span class="icon-plus"></span>
+              Novo
+          <%end%>
+      </div>
+  </div>
+  <table class="table table-bordered">
+    <tr>
+      <th>Nome</th>
+      <th>UF</th>
+      <th collspan="3"></th>
+    </tr>
 
-<table>
-  <tr>
-    <th>Name</th>
-    <th>Uf</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @cities.each do |city| %>
-  <tr>
-    <td><%= city.name %></td>
-    <td><%= city.uf %></td>
-    <td><%= link_to 'Show', city %></td>
-    <td><%= link_to 'Edit', edit_city_path(city) %></td>
-    <td><%= link_to 'Destroy', city, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New City', new_city_path %>
+    <% @cities.each do |city| %>
+      <tr>
+        <td><%= city.name %></td>
+        <td><%= city.uf %></td>
+        <td class="actions-table">
+            <%= link_to city, :class => "btn btn-info", :title => "Visualizar" do%>
+                <span class="icon-zoom-in"></span>
+            <%end%>
+        </td>
+        <td class="actions-table">
+            <%= link_to edit_city_path(city), :class => "btn btn-warning", :title => "Editar" do%>
+                <span class="icon-edit"></span>
+            <%end%>
+        </td>
+        <td class="actions-table">
+            <%= link_to city, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger", :title => "Excluir" do %>
+                <span class="icon-trash"></span>
+            <%end%>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+</div>

@@ -3,6 +3,7 @@ db/*.sqlite3
 log/*.log
 tmp/
 config/*.yml
-config/*.yml
+config/database.yml
 db/schema.rb
 public/uploads/*
+Gemfile
