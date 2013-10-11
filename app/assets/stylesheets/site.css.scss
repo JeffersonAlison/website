@@ -8,6 +8,23 @@
 .none{
 	display: none;
 }
+.navbar{
+	.navbar-inner{
+		min-height: 86px;
+		.container{
+			width: 1170px;
+			.row-fluid{
+				margin-top: -17px;
+
+				div{
+					.nav{
+						margin-top: 21px;
+					}
+				}
+			}
+		}
+	}
+}
 .anuncios{
 	padding: 20px 0;
 	margin-top: 40px;

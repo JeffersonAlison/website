@@ -45387,3 +45387,2410 @@ Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
 
 Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-11 16:57:38 -0400
 Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-11 17:00:32 -0400
+Processing by SiteController#index as HTML
+  [1m[36mPostnotice Load (0.5ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+  Rendered devise/sessions/_login.html.erb (2.4ms)
+  Rendered layouts/_menu_dashboard.html.erb (4.9ms)
+  Rendered site/_slider.html.erb (2.0ms)
+  Rendered site/_last_notices.html.erb (0.9ms)
+  Rendered site/index.html.erb within layouts/application (12.0ms)
+Compiled site.css  (497ms)  (pid 2775)
+Completed 200 OK in 571ms (Views: 569.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /site.css - 200 OK (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /site.js - 304 Not Modified (16ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:33 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:00:34 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-11 17:00:34 -0400
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:00:34 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:00:45 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36mCity Load (0.3ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.4ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  Rendered postnotices/show.html.erb within layouts/dashboard (57.8ms)
+  Rendered devise/sessions/_login.html.erb (1.6ms)
+  Rendered layouts/_menu_dashboard.html.erb (3.1ms)
+Completed 200 OK in 170ms (Views: 53.2ms | ActiveRecord: 34.4ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:00:46 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Processing by PostnoticesController#index as HTML
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/usuario/logar" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:00:50 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.5ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35mCity Load (0.5ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.3ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (4.8ms)
+  Rendered devise/sessions/_login.html.erb (1.5ms)
+  Rendered layouts/_menu_dashboard.html.erb (4.3ms)
+Completed 200 OK in 35ms (Views: 31.9ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (69ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:03:03 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:03:04 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:03:04 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/postnotices/1" for 127.0.0.1 at 2013-10-11 17:15:52 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPostnotice Load (0.3ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 1 LIMIT 1
+  [1m[36mCity Load (0.3ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.5ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  Rendered postnotices/show.html.erb within layouts/dashboard (38.1ms)
+Completed 500 Internal Server Error in 135ms
+
+ActionView::Template::Error (undefined method `comments' for #<Postnotice:0x0000010137fad0>):
+    31: <hr>
+    32: 
+    33: <h2>Comentarios</h2>
+    34: <% @postnotice.comments.each do |comentario| %>
+    35:   <p>
+    36:     <b>Autor:</b>
+    37:     <%= comentario.autor %>
+  app/views/postnotices/show.html.erb:34:in `_app_views_postnotices_show_html_erb___1539117674527351815_2158670280'
+  app/controllers/postnotices_controller.rb:20:in `show'
+
+
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (12.5ms)
+
+
+Started GET "/postnotices/1" for 127.0.0.1 at 2013-10-11 17:16:03 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPostnotice Load (73.0ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 1 LIMIT 1[0m
+  [1m[35mCity Load (0.5ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.4ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+Mysql2::Error: Table 'website_development.comments' doesn't exist: SHOW FULL FIELDS FROM `comments`
+  Rendered postnotices/show.html.erb within layouts/dashboard (63.6ms)
+Completed 500 Internal Server Error in 142ms
+
+ActionView::Template::Error (Mysql2::Error: Table 'website_development.comments' doesn't exist: SHOW FULL FIELDS FROM `comments`):
+    31: <hr>
+    32: 
+    33: <h2>Comentarios</h2>
+    34: <% @postnotice.comment.each do |comentario| %>
+    35:   <p>
+    36:     <b>Autor:</b>
+    37:     <%= comentario.autor %>
+  app/views/postnotices/show.html.erb:34:in `_app_views_postnotices_show_html_erb___1539117674527351815_2181434500'
+  app/controllers/postnotices_controller.rb:20:in `show'
+
+
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (11.4ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.4ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateCities (20131009192355)
+Migrating to CreateCategories (20131009192414)
+Migrating to CreatePostnotices (20131009192555)
+Migrating to AddImageToPostnotices (20131010200051)
+Migrating to AddFeaturedToPostnotices (20131011034845)
+Migrating to DeviseCreateUsers (20131011040802)
+Migrating to RemoveLevelToUsers (20131011181156)
+Migrating to AddLevelToUsers (20131011181234)
+Migrating to AddAdminFlagToUsers (20131011201204)
+Migrating to RemoveAdminFlagToUsers (20131011203110)
+Migrating to CreateComments (20131011210936)
+Connecting to database specified by database.yml
+  [1m[36m (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateCities (20131009192355)
+Migrating to CreateCategories (20131009192414)
+Migrating to CreatePostnotices (20131009192555)
+Migrating to AddImageToPostnotices (20131010200051)
+Migrating to AddFeaturedToPostnotices (20131011034845)
+Migrating to DeviseCreateUsers (20131011040802)
+Migrating to RemoveLevelToUsers (20131011181156)
+Migrating to AddLevelToUsers (20131011181234)
+Migrating to AddAdminFlagToUsers (20131011201204)
+Migrating to RemoveAdminFlagToUsers (20131011203110)
+Migrating to CreateComments (20131011210936)
+  [1m[35m (130.7ms)[0m  CREATE TABLE `comments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `author` varchar(255), `content` text, `ip` varchar(255), `postnotice_id` int(11), `created_at` datetime NOT NULL, `updated_at` datetime NOT NULL) ENGINE=InnoDB
+  [1m[36m (0.9ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20131011210936')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/postnotices/1" for 127.0.0.1 at 2013-10-11 17:17:34 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 1 LIMIT 1
+  [1m[36mCity Load (0.6ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.3ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 1[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (76.3ms)
+Completed 500 Internal Server Error in 158ms
+
+ActionView::Template::Error (undefined method `autor' for #<Comment:0x000001040db628>):
+    48: <%= form_for([@postnotice, @postnotice.comment.build]) do |f| %>
+    49:   <div class="field">
+    50:     <%= f.label :autor %><br />
+    51:     <%= f.text_field :autor %>
+    52:   </div>
+    53:   <div class="field">
+    54:     <%= f.label :conteudo %><br />
+  app/views/postnotices/show.html.erb:51:in `block in _app_views_postnotices_show_html_erb___1539117674527351815_2181434500'
+  app/views/postnotices/show.html.erb:48:in `_app_views_postnotices_show_html_erb___1539117674527351815_2181434500'
+  app/controllers/postnotices_controller.rb:20:in `show'
+
+
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (22.3ms)
+
+
+Started GET "/postnotices/1" for 127.0.0.1 at 2013-10-11 17:18:07 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 1 LIMIT 1
+  [1m[36mCity Load (0.5ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.3ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 1[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (84.7ms)
+Compiled comments.js  (331ms)  (pid 2775)
+Compiled application.js  (358ms)  (pid 2775)
+  Rendered devise/sessions/_login.html.erb (12.7ms)
+  Rendered layouts/_menu_dashboard.html.erb (56.0ms)
+Completed 200 OK in 587ms (Views: 584.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /comments.js - 200 OK (3ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:18:08 -0400
+Served asset /application.js - 304 Not Modified (179ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:18:09 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:18:09 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/1/comments" for 127.0.0.1 at 2013-10-11 17:18:18 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z/Wg9dYRbiByZhrHMizRr0G3kIJIU5llFUrhtIj05to=", "comment"=>{"author"=>"Jefferson", "content"=>"as"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"1"}
+Completed 500 Internal Server Error in 2ms
+
+NameError (uninitialized constant CommentsController::Post):
+  app/controllers/comments_controller.rb:87:in `create'
+
+
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started POST "/postnotices/1/comments" for 127.0.0.1 at 2013-10-11 17:19:02 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z/Wg9dYRbiByZhrHMizRr0G3kIJIU5llFUrhtIj05to=", "comment"=>{"author"=>"Jefferson", "content"=>"as"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"1"}
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant CommentsController::Post):
+  app/controllers/comments_controller.rb:87:in `create'
+
+
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.8ms)
+
+
+Started GET "/postnotices/1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPostnotice Load (0.3ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 1 LIMIT 1
+  [1m[36mCity Load (0.6ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.3ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 1[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (131.5ms)
+  Rendered devise/sessions/_login.html.erb (1.7ms)
+  Rendered layouts/_menu_dashboard.html.erb (18.6ms)
+Completed 200 OK in 198ms (Views: 164.8ms | ActiveRecord: 18.4ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:19:06 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:19:07 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:19:07 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/1/comments" for 127.0.0.1 at 2013-10-11 17:19:07 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z/Wg9dYRbiByZhrHMizRr0G3kIJIU5llFUrhtIj05to=", "comment"=>{"author"=>"Jefferson", "content"=>"as"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"1"}
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant CommentsController::Post):
+  app/controllers/comments_controller.rb:87:in `create'
+
+
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.2ms)
+
+
+Started POST "/postnotices/1/comments" for 127.0.0.1 at 2013-10-11 17:19:55 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z/Wg9dYRbiByZhrHMizRr0G3kIJIU5llFUrhtIj05to=", "comment"=>{"author"=>"Jefferson", "content"=>"as"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"1"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jefferson', 'as', '2013-10-11 17:19:55', NULL, 1, '2013-10-11 17:19:55')
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Completed 500 Internal Server Error in 117ms
+
+NoMethodError (undefined method `post_path' for #<CommentsController:0x0000010421ba38>):
+  app/controllers/comments_controller.rb:89:in `create'
+
+
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started POST "/postnotices/1/comments" for 127.0.0.1 at 2013-10-11 17:20:11 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z/Wg9dYRbiByZhrHMizRr0G3kIJIU5llFUrhtIj05to=", "comment"=>{"author"=>"Jefferson", "content"=>"as"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"1"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 1 LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jefferson', 'as', '2013-10-11 17:20:12', NULL, 1, '2013-10-11 17:20:12')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/postnotices
+Completed 302 Found in 183ms (ActiveRecord: 62.3ms)
+
+
+Started GET "/postnotices" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Processing by PostnoticesController#index as HTML
+Completed 401 Unauthorized in 15ms
+
+
+Started GET "/usuario/logar" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 66ms (Views: 41.6ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /site.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:12 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started POST "/usuario/logar" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Z/Wg9dYRbiByZhrHMizRr0G3kIJIU5llFUrhtIj05to=", "user"=>{"email"=>"jefferson@egenial.com.br", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`email` = 'jefferson@egenial.com.br' LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.4ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2013-10-11 16:48:30', `current_sign_in_at` = '2013-10-11 17:20:19', `sign_in_count` = 10, `updated_at` = '2013-10-11 17:20:19' WHERE `users`.`id` = 1
+  [1m[36m (1.0ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/dashboard
+Completed 302 Found in 100ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/dashboard" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Processing by DashboardController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered dashboard/index.html.erb within layouts/dashboard (0.0ms)
+  Rendered layouts/_menu_dashboard.html.erb (8.7ms)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /site.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:20:19 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/usuario/logar" for 127.0.0.1 at 2013-10-11 17:20:25 -0400
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+Redirected to http://localhost:3001/dashboard
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.4ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPostnotice Load (0.5ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36mCity Load (0.4ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.7ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (163.9ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered layouts/_menu_dashboard.html.erb (2.9ms)
+Completed 200 OK in 197ms (Views: 135.4ms | ActiveRecord: 59.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:38 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:20:39 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:20:39 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jefferson", "content"=>"sadas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[36mPostnotice Load (0.5ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jefferson', 'sadas', '2013-10-11 17:20:45', NULL, 3, '2013-10-11 17:20:45')[0m
+  [1m[35m (35.4ms)[0m  COMMIT
+Redirected to http://localhost:3001/postnotices
+Completed 302 Found in 41ms (ActiveRecord: 36.3ms)
+
+
+Started GET "/postnotices" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Processing by PostnoticesController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mPostnotice Load (0.2ms)[0m  SELECT `postnotices`.* FROM `postnotices` 
+  [1m[36mCity Load (0.4ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.3ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  Rendered postnotices/index.html.erb within layouts/dashboard (7.1ms)
+  Rendered layouts/_menu_dashboard.html.erb (1.4ms)
+Completed 200 OK in 107ms (Views: 103.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:20:45 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:20:46 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:20:46 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:21:27 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jefferson", "content"=>"sadas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[36mPostnotice Load (0.5ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jefferson', 'sadas', '2013-10-11 17:21:27', NULL, 3, '2013-10-11 17:21:27')[0m
+  [1m[35m (38.2ms)[0m  COMMIT
+Redirected to http://localhost:3001/postnotices
+Completed 302 Found in 45ms (ActiveRecord: 39.2ms)
+
+
+Started GET "/postnotices" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Processing by PostnoticesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mPostnotice Load (2.3ms)[0m  SELECT `postnotices`.* FROM `postnotices` 
+  [1m[36mCity Load (0.5ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.4ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  Rendered postnotices/index.html.erb within layouts/dashboard (8.8ms)
+  Rendered layouts/_menu_dashboard.html.erb (1.3ms)
+Completed 200 OK in 50ms (Views: 38.8ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:28 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:21:29 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:21:29 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:21:41 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.3ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35mCity Load (0.4ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.3ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3
+  Rendered postnotices/show.html.erb within layouts/dashboard (63.0ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered layouts/_menu_dashboard.html.erb (35.6ms)
+Completed 200 OK in 266ms (Views: 178.5ms | ActiveRecord: 73.5ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:21:42 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:21:43 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:21:49 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jefferson", "content"=>"sadas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[35mPostnotice Load (0.5ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jefferson', 'sadas', '2013-10-11 17:21:49', NULL, 3, '2013-10-11 17:21:49')
+  [1m[36m (25.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/postnotices.3
+Completed 302 Found in 36ms (ActiveRecord: 26.0ms)
+
+
+Started GET "/postnotices.3" for 127.0.0.1 at 2013-10-11 17:21:49 -0400
+Processing by PostnoticesController#index as 
+  [1m[35mUser Load (0.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mPostnotice Load (0.3ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+Completed 406 Not Acceptable in 14ms (ActiveRecord: 1.0ms)
+
+
+Started GET "/postnotices.3" for 127.0.0.1 at 2013-10-11 17:21:56 -0400
+Processing by PostnoticesController#index as 
+  [1m[35mUser Load (0.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mPostnotice Load (0.3ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+Completed 406 Not Acceptable in 135ms (ActiveRecord: 60.2ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:22:03 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jeffersonas", "content"=>"sadasdas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jeffersonas', 'sadasdas', '2013-10-11 17:22:03', NULL, 3, '2013-10-11 17:22:03')
+  [1m[36m (0.7ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/postnotices
+Completed 302 Found in 53ms (ActiveRecord: 37.2ms)
+
+
+Started GET "/postnotices" for 127.0.0.1 at 2013-10-11 17:22:03 -0400
+Processing by PostnoticesController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mPostnotice Load (0.5ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+  [1m[35mCity Load (0.3ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.3ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendered postnotices/index.html.erb within layouts/dashboard (41.2ms)
+  Rendered layouts/_menu_dashboard.html.erb (1.6ms)
+Completed 200 OK in 149ms (Views: 136.1ms | ActiveRecord: 10.6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:22:04 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:22:09 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36mCity Load (1.7ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.3ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (12.9ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered layouts/_menu_dashboard.html.erb (4.1ms)
+Completed 200 OK in 51ms (Views: 46.1ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:22:10 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.3ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35mCity Load (0.5ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.4ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3
+  Rendered postnotices/show.html.erb within layouts/dashboard (55.2ms)
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered layouts/_menu_dashboard.html.erb (104.0ms)
+Completed 200 OK in 260ms (Views: 166.0ms | ActiveRecord: 79.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /site.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:22:49 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:22:50 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:22:50 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:22:54 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jeffersonas", "content"=>"sadasdas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[35mPostnotice Load (0.7ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.1ms)[0m  INSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jeffersonas', 'sadasdas', '2013-10-11 17:22:54', NULL, 3, '2013-10-11 17:22:54')
+  [1m[36m (18.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/postnotices.3
+Completed 302 Found in 32ms (ActiveRecord: 24.2ms)
+
+
+Started GET "/postnotices.3" for 127.0.0.1 at 2013-10-11 17:22:54 -0400
+Processing by PostnoticesController#index as 
+  [1m[35mUser Load (1.0ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mPostnotice Load (0.3ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+Completed 406 Not Acceptable in 15ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/postnotices.3" for 127.0.0.1 at 2013-10-11 17:23:11 -0400
+Processing by PostnoticesController#index as 
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mPostnotice Load (0.3ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+Completed 406 Not Acceptable in 112ms (ActiveRecord: 61.2ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:23:15 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jeffersonas", "content"=>"sadasdas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[35mPostnotice Load (0.6ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jeffersonas', 'sadasdas', '2013-10-11 17:23:15', NULL, 3, '2013-10-11 17:23:15')
+  [1m[36m (0.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/postnotices.id
+Completed 302 Found in 21ms (ActiveRecord: 5.7ms)
+
+
+Started GET "/postnotices.id" for 127.0.0.1 at 2013-10-11 17:23:15 -0400
+Processing by PostnoticesController#index as 
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mPostnotice Load (0.2ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/postnotices.id" for 127.0.0.1 at 2013-10-11 17:23:43 -0400
+Processing by PostnoticesController#index as 
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mPostnotice Load (0.2ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+Completed 406 Not Acceptable in 111ms (ActiveRecord: 63.5ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36mCity Load (0.3ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.4ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.5ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (105.7ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered layouts/_menu_dashboard.html.erb (4.2ms)
+Completed 200 OK in 145ms (Views: 83.8ms | ActiveRecord: 59.5ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:23:47 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:23:48 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:23:48 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:23:50 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jeffersonas", "content"=>"sadasdas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[36mPostnotice Load (0.4ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jeffersonas', 'sadasdas', '2013-10-11 17:23:50', NULL, 3, '2013-10-11 17:23:50')[0m
+  [1m[35m (24.1ms)[0m  COMMIT
+Redirected to http://localhost:3001/postnotices.3
+Completed 302 Found in 33ms (ActiveRecord: 24.9ms)
+
+
+Started GET "/postnotices.3" for 127.0.0.1 at 2013-10-11 17:23:50 -0400
+Processing by PostnoticesController#index as 
+  [1m[36mUser Load (1.3ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  [1m[35mPostnotice Load (0.3ms)[0m  SELECT `postnotices`.* FROM `postnotices` 
+Completed 406 Not Acceptable in 4ms (ActiveRecord: 1.6ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:24:19 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.3ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35mCity Load (0.3ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.3ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3
+  Rendered postnotices/show.html.erb within layouts/dashboard (121.5ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered layouts/_menu_dashboard.html.erb (36.9ms)
+Completed 200 OK in 256ms (Views: 172.0ms | ActiveRecord: 67.2ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /cities.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:24:20 -0400
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:24:23 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jeffersonas", "content"=>"sadasdas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[35mPostnotice Load (0.5ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `comments' for #<Postnotice:0x00000100fe7e18>):
+  app/controllers/comments_controller.rb:88:in `create'
+
+
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (86.9ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.4ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35mCity Load (0.5ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.3ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3
+  Rendered postnotices/show.html.erb within layouts/dashboard (68.4ms)
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered layouts/_menu_dashboard.html.erb (94.2ms)
+Completed 200 OK in 259ms (Views: 170.6ms | ActiveRecord: 75.4ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:56 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:24:57 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:24:57 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jeffersonas", "content"=>"sadasdas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jeffersonas', 'sadasdas', '2013-10-11 17:24:59', NULL, 3, '2013-10-11 17:24:59')
+  [1m[36m (62.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/postnotices
+Completed 302 Found in 70ms (ActiveRecord: 63.2ms)
+
+
+Started GET "/postnotices" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Processing by PostnoticesController#index as HTML
+  [1m[35mUser Load (2.7ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  [1m[36mPostnotice Load (0.3ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+  [1m[35mCity Load (0.3ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.2ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  Rendered postnotices/index.html.erb within layouts/dashboard (7.1ms)
+  Rendered layouts/_menu_dashboard.html.erb (72.8ms)
+Completed 200 OK in 128ms (Views: 112.8ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /site.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:24:59 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:25:00 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:25:00 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:25:12 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPostnotice Load (1.1ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36mCity Load (0.4ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.3ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (58.5ms)
+  [1m[35mUser Load (0.3ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered layouts/_menu_dashboard.html.erb (32.8ms)
+Completed 200 OK in 253ms (Views: 172.5ms | ActiveRecord: 68.4ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:25:13 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:25:14 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:25:14 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:25:16 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jeffersonas", "content"=>"sadasdas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[36mPostnotice Load (0.4ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jeffersonas', 'sadasdas', '2013-10-11 17:25:16', NULL, 3, '2013-10-11 17:25:16')[0m
+  [1m[35m (1.0ms)[0m  COMMIT
+Completed 500 Internal Server Error in 13ms
+
+NameError (undefined local variable or method `postnotices' for #<CommentsController:0x000001013a63d8>):
+  app/controllers/comments_controller.rb:89:in `create'
+
+
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/egenial/.rvm/gems/ruby-1.9.2-p180/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.9ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:26:21 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.3ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35mCity Load (0.4ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.7ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3
+  Rendered postnotices/show.html.erb within layouts/dashboard (69.3ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered layouts/_menu_dashboard.html.erb (100.8ms)
+Completed 200 OK in 268ms (Views: 185.1ms | ActiveRecord: 70.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:26:21 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:21 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:26:21 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:26:21 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:26:22 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (3ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Jeffersonas", "content"=>"sadasdas"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[35mPostnotice Load (6.6ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Jeffersonas', 'sadasdas', '2013-10-11 17:26:25', NULL, 3, '2013-10-11 17:26:25')
+  [1m[36m (18.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3001/postnotices/3
+Completed 302 Found in 37ms (ActiveRecord: 25.2ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36mCity Load (0.4ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.4ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (9.7ms)
+  [1m[35mUser Load (0.6ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered layouts/_menu_dashboard.html.erb (3.5ms)
+Completed 200 OK in 45ms (Views: 41.7ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:26:25 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started POST "/postnotices/3/comments" for 127.0.0.1 at 2013-10-11 17:26:34 -0400
+Processing by CommentsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o5erTiSZeG04PDtDNHBFRKq1fR/MzkdQHqf/GyF5Ozc=", "comment"=>{"author"=>"Mariaa", "content"=>"teste"}, "commit"=>"Cadastrar Comment", "postnotice_id"=>"3"}
+  [1m[36mPostnotice Load (0.6ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO `comments` (`author`, `content`, `created_at`, `ip`, `postnotice_id`, `updated_at`) VALUES ('Mariaa', 'teste', '2013-10-11 17:26:34', NULL, 3, '2013-10-11 17:26:34')[0m
+  [1m[35m (25.0ms)[0m  COMMIT
+Redirected to http://localhost:3001/postnotices/3
+Completed 302 Found in 38ms (ActiveRecord: 26.2ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:26:34 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.4ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35mCity Load (0.4ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.3ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.3ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3
+  Rendered postnotices/show.html.erb within layouts/dashboard (9.2ms)
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered layouts/_menu_dashboard.html.erb (3.5ms)
+Completed 200 OK in 45ms (Views: 42.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:26:35 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:34:14 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPostnotice Load (0.6ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36mCity Load (1.3ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.3ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (14.4ms)
+  [1m[35mUser Load (0.5ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered layouts/_menu_dashboard.html.erb (3.8ms)
+Completed 200 OK in 49ms (Views: 44.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:15 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:34:16 -0400
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:34:16 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:34:26 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.5ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35mCity Load (0.8ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.4ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.7ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3
+  Rendered postnotices/show.html.erb within layouts/dashboard (23.4ms)
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered layouts/_menu_dashboard.html.erb (3.2ms)
+Completed 200 OK in 163ms (Views: 158.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /bootstrap.css - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /bootstrap-responsive.css - 200 OK (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /cities.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /bootstrap.js - 200 OK (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /categories.js - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /dashboard.css - 200 OK (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /dashboard.js - 200 OK (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /site.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /comments.js - 200 OK (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:34:27 -0400
+Served asset /postnotices.js - 200 OK (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:34:28 -0400
+Served asset /logo.png - 200 OK (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:34:28 -0400
+Served asset /glyphicons-halflings.png - 200 OK (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:35:16 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPostnotice Load (0.4ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1
+  [1m[36mCity Load (0.6ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.7ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.3ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (12.9ms)
+  [1m[35mUser Load (0.9ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered layouts/_menu_dashboard.html.erb (6.2ms)
+Completed 200 OK in 47ms (Views: 42.9ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:35:16 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:35:16 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:35:17 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.4ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 3 LIMIT 1[0m
+  [1m[35mCity Load (0.6ms)[0m  SELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1
+  [1m[36mCategorie Load (0.5ms)[0m  [1mSELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.4ms)[0m  SELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 3
+  Rendered postnotices/show.html.erb within layouts/dashboard (13.1ms)
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1[0m
+  Rendered layouts/_menu_dashboard.html.erb (4.6ms)
+Completed 200 OK in 49ms (Views: 45.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:41 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:35:42 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:35:42 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPostnotice Load (0.5ms)[0m  SELECT `postnotices`.* FROM `postnotices` WHERE `postnotices`.`id` = 1 LIMIT 1
+  [1m[36mCity Load (0.5ms)[0m  [1mSELECT `cities`.* FROM `cities` WHERE `cities`.`id` = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (0.3ms)[0m  SELECT `categories`.* FROM `categories` WHERE `categories`.`id` = 1 LIMIT 1
+  [1m[36mComment Load (0.4ms)[0m  [1mSELECT `comments`.* FROM `comments` WHERE `comments`.`postnotice_id` = 1[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (9.1ms)
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`id` = 1 LIMIT 1
+  Rendered layouts/_menu_dashboard.html.erb (2.8ms)
+Completed 200 OK in 117ms (Views: 39.0ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /bootstrap.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /bootstrap.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /categories.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /cities.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /site.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-11 17:35:51 -0400
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-11 17:35:52 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-11 17:35:52 -0400
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)

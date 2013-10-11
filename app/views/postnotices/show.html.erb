@@ -28,6 +28,43 @@
   <%= @postnotice.categorie.name %>
 </p>
 
+<hr>
+
+<h2>Comentarios</h2>
+<% @postnotice.comment.each do |comentario| %>
+  <p>
+    <b>Autor:</b>
+    <%= comentario.author %>
+  </p>
+ 
+  <p>
+    <b>Comentario:</b>
+    <%= comentario.content %>
+  </p>
+<hr />
+<% end %>
+ 
+<h2>Adicione um comentario:</h2>
+<%= form_for([@postnotice, @postnotice.comment.build]) do |f| %>
+  <div class="field">
+    <%= f.label :author %><br />
+    <%= f.text_field :author %>
+  </div>
+  <div class="field">
+    <%= f.label :content %><br />
+    <%= f.text_area :content %>
+  </div>
+  <%= request.remote_ip%>
+  
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+<hr>
+
+<div class="fb-comments" data-href="<%= request.url%>" data-colorscheme="The color scheme used in the plugin" data-numposts="5" data-width="The pixel width of the plugin"></div>
 
 <%= link_to 'Edit', edit_postnotice_path(@postnotice) %> |
 <%= link_to 'Back', postnotices_path %>

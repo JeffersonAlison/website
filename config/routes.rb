@@ -1,15 +1,17 @@
 Website::Application.routes.draw do
 
-
   get "dashboard/index"
 
-  devise_for :users, :path => 'usuario', :path_names => {:sign_in => 'logar', :sign_out => 'sair', :sign_up => 'cadastrar'} do    get 'logout' => 'devise/sessions#destroy'
+  devise_for :users, :path => 'usuario', :path_names => {:sign_in => 'logar', :sign_out => 'sair', :sign_up => 'cadastrar'} do    
+    get 'logout' => 'devise/sessions#destroy'
   end
 
   match 'dashboard' => 'dashboard#index', :as => :dashboard
 
 
-  resources :postnotices
+  resources :postnotices do 
+    resources :comments
+  end
 
 
   resources :categories
