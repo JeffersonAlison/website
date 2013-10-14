@@ -1,0 +1,45 @@
+
+  <div class="page-header">
+      <h1>Anuncios</h1>
+      <div class="pull-right">
+          <%= link_to  new_banner_path, :class => "btn btn-success" do %>
+              <span class="icon-plus"></span>
+              Novo
+          <%end%>
+      </div>
+  </div>
+  <table class="table table-bordered">
+    <tr>
+      <th>Name</th>
+      <th>Image</th>
+      <th>Position</th>
+      <th collspan="3"></th>
+    </tr>
+
+    <% @banners.each do |banner| %>
+      <tr>
+        <td><%= banner.name %></td>
+        <td><%= banner.image %></td>
+        <td><%= banner.position %></td>
+        <td class="actions-table">
+            <%= link_to banner, :class => "btn btn-info", :title => "Visualizar" do%>
+                <span class="icon-zoom-in"></span>
+            <%end%>
+        </td>
+        <td class="actions-table">
+            <%= link_to edit_banner_path(banner), :class => "btn btn-warning", :title => "Editar" do%>
+                <span class="icon-edit"></span>
+            <%end%>
+        </td>
+        <td class="actions-table">
+            <%= link_to banner, method: :delete, data: { confirm: 'Are you sure?' }, :class => "btn btn-danger", :title => "Excluir" do %>
+                <span class="icon-trash"></span>
+            <%end%>
+        </td>
+      </tr>
+    <% end %>
+  </table>
+
+<br />
+
+<%= link_to 'New Banner', new_banner_path %>

@@ -1,5 +1,8 @@
 Website::Application.routes.draw do
 
+  resources :banners
+
+
   get "dashboard/index"
 
   devise_for :users, :path => 'usuario', :path_names => {:sign_in => 'logar', :sign_out => 'sair', :sign_up => 'cadastrar'} do    

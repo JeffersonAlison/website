@@ -2,15 +2,18 @@
 <html>
 <head>
   <title><%= APP_CONFIG['site']['title']%></title>
-  <%= stylesheet_link_tag    "bootstrap.css", "bootstrap-responsive.css", "dashboard", :media => "all" %>
+  <%= stylesheet_link_tag    "bootstrap.css", "bootstrap-responsive.css","bootstrap-lightbox.css","bootstrap-wysihtml5.css", "dashboard", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 	<%= render "layouts/menu_dashboard" %>
 <div id="wrap">
-
+    
+  <div class="content-fluid">
     <%= yield %>
+  </div>
+    
       <div id="push"></div>
     </div>
 

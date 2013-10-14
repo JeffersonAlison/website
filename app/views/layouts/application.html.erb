@@ -10,5 +10,12 @@
 
 <%= yield %>
 
+<style type="text/css">
+	<% if request.url == "http://localhost:3000/usuario/logar" %>
+		body{
+			background: #f2f2f2;
+		}
+	<%end%>
+</style>
 </body>
 </html>
