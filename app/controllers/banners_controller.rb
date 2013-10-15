@@ -1,6 +1,8 @@
 class BannersController < ApplicationController
   # GET /banners
   # GET /banners.json
+
+  layout "dashboard"
   def index
     @banners = Banner.all
 
