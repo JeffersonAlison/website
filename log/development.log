@@ -10866,3 +10866,189 @@ Served asset /logo.png - 304 Not Modified (0ms)
 
 Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-13 19:26:07 -0300
 Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPostnotice Load (0.0ms)[0m  [1mSELECT "postnotices".* FROM "postnotices" WHERE "postnotices"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mCity Load (0.0ms)[0m  SELECT "cities".* FROM "cities" WHERE "cities"."id" = 1 LIMIT 1
+  [1m[36mCategorie Load (1.0ms)[0m  [1mSELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1[0m
+  [1m[35mComment Load (0.0ms)[0m  SELECT "comments".* FROM "comments" WHERE "comments"."postnotice_id" = 3
+  Rendered postnotices/show.html.erb within layouts/dashboard (16.0ms)
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered layouts/_menu_dashboard.html.erb (5.0ms)
+Completed 200 OK in 64ms (Views: 61.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /bootstrap.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-lightbox.css?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /bootstrap-lightbox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5.css?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /bootstrap-wysihtml5.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /dashboard.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banners.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /banners.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-lightbox.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /bootstrap-lightbox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /bootstrap-wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:35 -0300
+Served asset /bootstrap.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:36 -0300
+Served asset /categories.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:36 -0300
+Served asset /cities.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:36 -0300
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:36 -0300
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:36 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:36 -0300
+Served asset /site.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-13 22:48:36 -0300
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-13 22:48:36 -0300
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-13 22:48:36 -0300
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+
+
+Started GET "/postnotices/3" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Processing by PostnoticesController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPostnotice Load (1.0ms)[0m  SELECT "postnotices".* FROM "postnotices" WHERE "postnotices"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mCity Load (0.0ms)[0m  [1mSELECT "cities".* FROM "cities" WHERE "cities"."id" = 1 LIMIT 1[0m
+  [1m[35mCategorie Load (1.0ms)[0m  SELECT "categories".* FROM "categories" WHERE "categories"."id" = 1 LIMIT 1
+  [1m[36mComment Load (0.0ms)[0m  [1mSELECT "comments".* FROM "comments" WHERE "comments"."postnotice_id" = 3[0m
+  Rendered postnotices/show.html.erb within layouts/dashboard (17.0ms)
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered layouts/_menu_dashboard.html.erb (3.0ms)
+Completed 200 OK in 56ms (Views: 53.0ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /bootstrap.css - 304 Not Modified (15ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /bootstrap-responsive.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap-lightbox.css?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /bootstrap-lightbox.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.css?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /dashboard.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5.css?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /bootstrap-wysihtml5.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-lightbox.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /bootstrap-lightbox.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/banners.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /banners.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /bootstrap-wysihtml5.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /bootstrap.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /categories.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /cities.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /comments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /dashboard.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /postnotices.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /site.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-13 22:52:19 -0300
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-13 22:52:20 -0300
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-13 22:52:20 -0300
+Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
