@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131015012638) do
+ActiveRecord::Schema.define(:version => 20131017185205) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -64,12 +64,13 @@ ActiveRecord::Schema.define(:version => 20131015012638) do
     t.string   "author"
     t.integer  "city_id"
     t.integer  "categorie_id"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",                  :null => false
+    t.datetime "updated_at",                  :null => false
     t.string   "image"
     t.boolean  "featured"
     t.string   "video"
     t.text     "descbanner"
+    t.integer  "reserved",     :default => 0
   end
 
   add_index "postnotices", ["categorie_id"], :name => "index_postnotices_on_categorie_id"

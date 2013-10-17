@@ -14,14 +14,16 @@ Website::Application.routes.draw do
 
   resources :postnotices do 
     resources :comments
+   
   end
 
 
-  resources :categories
 
+  resources :categories 
 
   resources :cities
 
+  match 'busca/:id' => 'site#search', :as => :search
   root :to  => "site#index"
 
   # The priority is based upon order of creation:
