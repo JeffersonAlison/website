@@ -6236,3 +6236,4 @@ Served asset /logo.png - 304 Not Modified (0ms)
 
 Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-14 23:32:39 -0300
 Served asset /glyphicons-halflings.png - 304 Not Modified (1ms)
+Connecting to database specified by database.yml
