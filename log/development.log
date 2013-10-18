@@ -25652,3 +25652,95 @@ Served asset /logo.png - 304 Not Modified (0ms)
 
 Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-17 17:28:41 -0400
 Served asset /glyphicons-halflings.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-18 08:12:30 -0400
+Processing by SiteController#index as HTML
+  [1m[36mPostnotice Load (2.2ms)[0m  [1mSELECT `postnotices`.* FROM `postnotices` [0m
+  [1m[35mBanner Load (0.3ms)[0m  SELECT `banners`.* FROM `banners` 
+  [1m[36mCategorie Load (0.2ms)[0m  [1mSELECT `categories`.* FROM `categories` [0m
+  [1m[35mCity Load (0.5ms)[0m  SELECT `cities`.* FROM `cities` 
+  Rendered site/_ads.html.erb (0.5ms)
+  Rendered site/_slider.html.erb (6.1ms)
+  Rendered site/_last_notices.html.erb (168.3ms)
+  Rendered site/index.html.erb within layouts/application (297.6ms)
+  Rendered devise/sessions/_login.html.erb (2.0ms)
+  Rendered layouts/_menu_dashboard.html.erb (34.4ms)
+Completed 200 OK in 1892ms (Views: 1244.1ms | ActiveRecord: 309.7ms)
+
+
+Started GET "/assets/bootstrap.css?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /bootstrap.css - 200 OK (113ms)
+
+
+Started GET "/assets/bootstrap-responsive.css?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /bootstrap-responsive.css - 200 OK (3ms)
+
+
+Started GET "/assets/site.css?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /site.css - 200 OK (14ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /jquery.js - 200 OK (12ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/banners.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /banners.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap-lightbox.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /bootstrap-lightbox.js - 200 OK (3ms)
+
+
+Started GET "/assets/bootstrap-wysihtml5.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /bootstrap-wysihtml5.js - 200 OK (2ms)
+
+
+Started GET "/assets/postnotices.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /postnotices.js - 200 OK (2ms)
+
+
+Started GET "/assets/bootstrap.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /bootstrap.js - 200 OK (3ms)
+
+
+Started GET "/assets/cities.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /cities.js - 200 OK (2ms)
+
+
+Started GET "/assets/comments.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /comments.js - 200 OK (2ms)
+
+
+Started GET "/assets/dashboard.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /dashboard.js - 200 OK (2ms)
+
+
+Started GET "/assets/categories.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /categories.js - 200 OK (2ms)
+
+
+Started GET "/assets/site.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /site.js - 200 OK (9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /application.js - 200 OK (19ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /logo.png - 200 OK (19ms)
+
+
+Started GET "/assets/glyphicons-halflings.png" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /glyphicons-halflings.png - 200 OK (31ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-10-18 08:12:33 -0400
+Served asset /rails.png - 200 OK (52ms)
