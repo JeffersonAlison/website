@@ -1,4 +1,15 @@
-<%= form_for(@city) do |f| %>
+<% @estados = [["Acre", "AC"], ["Alagoas", "AL"],  
+ ["Amapá", "AP"], ["Amazonas", "AM"], ["Bahia", "BA"], ["Ceará", "CE"], ["Distrito Federal", "DF"],  
+ ["Espírito Santos", "ES"], ["Goiás", "GO"], ["Maranhão", "MA"], ["Mato Grosso", "MT"],  
+ ["Mato Grosso do Sul", "MS"], ["Minas Gerais", "MG"], ["Pará", "PA"], ["Paraíba", "PB"],  
+ ["Paraná", "PR"], ["Pernambuco", "PE"], ["Piauí", "PI"], ["Rio de Janeiro", "RJ"],   
+["Rio Grande do Norte", "RN"], ["Rio Grande do Sul", "RS"], ["Rondônia", "RO"],  
+ ["Roraima", "RR"], ["Santa Catarina", "SC"], ["São Paulo", "SP"], ["Sergipe", "SE"],  
+ ["Tocantins", "TO"] ]  %>  
+          
+<div class="container">
+  <div class="well">
+<%= form_for(@city, :class => "form-horizontal") do |f| %>
   <% if @city.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@city.errors.count, "error") %> prohibited this city from being saved:</h2>
@@ -11,15 +22,22 @@
     </div>
   <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
+  <div class="control-group">
+    <%= f.label :name, :class => "control-label"  %>
+    <div class="controls">
+      <%= f.text_field :name, :class => "input-xxlarge" %>
+    </div>
+    
   </div>
-  <div class="field">
-    <%= f.label :uf %><br />
-    <%= f.text_field :uf %>
+  <div class="control-group">
+    <%= f.label :uf, :class => "control-label"  %>
+    <div class="controls">
+      <%= f.select :uf, @estados, :prompt => "Escolher uma estado", :class => "input-xxlarge"%>
+    </div>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <input type="submit" class="btn btn-success"></input>
   </div>
 <% end %>
+</div>
+</div>

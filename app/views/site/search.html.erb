@@ -1,0 +1,12 @@
+<div class="container">
+	<table class="table table-striped">
+	<% @postnotices.reverse.each do |postnotice| %>
+		<tr>
+			<td>
+			<p><%= link_to postnotice.title, postnotice%></p>		
+				
+			</td>
+		</tr>
+	<%end%>
+</table>
+</div>

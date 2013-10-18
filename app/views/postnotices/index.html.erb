@@ -11,7 +11,7 @@
     <table class="table table-bordered">
       <tr>
         <th>Titulo</th>
-        <th>Conteúdo</th>
+        <th>Descrição</th>
         <th>Autor</th>
         <th>Cidade</th>
         <th>Categoria</th>
@@ -21,7 +21,7 @@
         <% @postnotices.each do |postnotice| %>
           <tr>
             <td><%= postnotice.title %></td>
-            <td><%= postnotice.content %></td>
+            <td><%= postnotice.descbanner %></td>
             <td><%= postnotice.author %></td>
             <td><%= postnotice.city.name %></td>
             <td><%= postnotice.categorie.name %></td>
