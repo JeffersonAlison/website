@@ -1,21 +1,44 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title><%= APP_CONFIG['site']['title']%></title>
-  <%= stylesheet_link_tag    "bootstrap.css", "bootstrap-responsive.css", "site", :media => "all" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-<%= render "layouts/menu_dashboard"%>
-<%= yield %>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 
-<style type="text/css">
-	<% if request.url == "http://localhost:3000/usuario/logar" %>
-		body{
-			background: #f2f2f2;
-		}
-	<%end%>
-</style>
+<head>
+    
+    <meta name="viewport" content="width=100%; initial-scale=1; maximum-scale=1; minimum-scale=1; user-scalable=no;" />
+    <link rel="icon" href="assets/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/png" />
+    <title>Home Page</title>
+    <link href="assets/bootstrap.css" type="text/css" rel="stylesheet" />
+    <link href="assets/style.css" type="text/css" rel="stylesheet" />
+    <link href="assets/prettyPhoto.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="assets/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="assets/jquery.quicksand.js"></script>
+    <script type="text/javascript" src="assets/superfish.js"></script>
+    <script type="text/javascript" src="assets/hoverIntent.js"></script>
+    <script type="text/javascript" src="assets/jquery.hoverdir.js"></script>
+    <script type="text/javascript" src="assets/jquery.flexslider.js"></script>
+    <script type="text/javascript" src="assets/jflickrfeed.min.js"></script>
+    <script type="text/javascript" src="assets/jquery.prettyPhoto.js"></script>
+    <script type="text/javascript" src="assets/jquery.elastislide.js"></script>
+    <script type="text/javascript" src="assets/jquery.tweet.js"></script>
+    <script type="text/javascript" src="assets/smoothscroll.js"></script>
+    <script type="text/javascript" src="assets/jquery.ui.totop.js"></script>
+    <script type="text/javascript" src="assets/main.js"></script>
+    <script type="text/javascript" src="assets/ajax-mail.js"></script>
+    <script type="text/javascript" src="assets/accordion.settings.js"></script>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link href="assets/ie.css" type="text/css" rel="stylesheet"/>
+    <![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
+
+<body>
+
+<%= yield%>
+
 </body>
 </html>
