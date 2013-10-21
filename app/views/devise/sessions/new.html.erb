@@ -1,34 +1,47 @@
-<div class="login">
-	<h2>Acessar</h2>
+<div class="account-container stacked">
+  
+  <div class="content clearfix">
+	<h1>Acessar</h1>
 
 <%= form_for(resource, :as => resource_name, :url => session_path(resource_name), :class => "form-horizontal") do |f| %>
-  	<div class="control-group">
-  		<div class="controls">
-  			<%= f.email_field :email, :autofocus => true, :placeholder => "E-mail" %>
-		</div>
-	</div>
 
-   	<div class="control-group">
-  		<div class="controls">
-    		<%= f.password_field :password, :placeholder => "Senha" %>
-		</div>
-	</div>
+<div class="login-fields">
+        
+        <p>Faça login usando a sua conta registrada:</p>
+        
+        <div class="field">
+          <label for="username">E-mail:</label>
+          <%= f.email_field :email, :autofocus => true, :placeholder => "E-mail", :class => "login username-field" %>
+        </div> <!-- /field -->
+        
+        <div class="field">
+          <label for="password">Senha:</label>
+         <%= f.password_field :password, :placeholder => "Senha", :class => "login password-field" %>
+        </div> <!-- /password -->
+        
+      </div> <!-- /login-fields -->
+      <div class="login-actions">
+        
+        <span class="login-checkbox">
+          <% if devise_mapping.rememberable? -%>
+          <%= f.check_box :remember_me %> <%= f.label "lembrar-me" %>
+          <%end%>
+        </span>
 
-  <% if devise_mapping.rememberable? -%>
-    <div class="control-group">
-		<div class="controls">
-			<label class="checkbox">
-    			<%= f.check_box :remember_me %> <%= f.label :remember_me %>
-			</label>
-		</div>    	
-    </div>
-  <% end -%>
+        <%= f.submit "Logar", :class => "button btn btn-warning btn-large" %>
+    
+        
+      </div> <!-- .actions -->
 
-  <div class="control-group">
-  	<%= f.submit "Logar", :class => "btn" %>
-  </div>
 <% end %>
-<hr>
-<%= render "devise/shared/links" %>
 
-</div>
+  </div> <!-- /content -->
+  
+</div> <!-- /account-container -->
+
+
+
+<!-- Text Under Box -->
+<div class="login-extra">
+ <%= render "devise/shared/links" %>
+</div> <!-- /login-extra -->

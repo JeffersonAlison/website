@@ -10,7 +10,6 @@
 
 .navbar{
 	.navbar-inner{
-		min-height: 86px;
 		.container{
 			width: 1170px;
 			.row-fluid{
@@ -55,5 +54,8 @@
 	select{
 		width: 100%;
 		max-width: 544px;
+	}
+	#postnotice_startdate_3i, #postnotice_startdate_2i, #postnotice_startdate_1i{
+		max-width: 179px !important;
 	}
 }

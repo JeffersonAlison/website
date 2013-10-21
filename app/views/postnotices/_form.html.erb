@@ -48,6 +48,12 @@
         </div>
       </div>
       <div class="control-group">
+        <%= f.label :startdate, :class => "control-label" %>
+        <div class="controls">
+          <%= f.date_select :startdate, :class => "dates" %>
+        </div>
+      </div>
+      <div class="control-group">
         <%= f.label :city, :class => "control-label" %>
         <div class="controls">
           <%= f.select :city_id, City.all.collect {|c| [c.name, c.id]}, :prompt => "Escolher uma cidade", :class => "input-xxlarge"%>

@@ -1,18 +1,22 @@
 class ApplicationController < ActionController::Base
   protect_from_forgery
-    unless Rails.application.config.consider_all_requests_local
-		rescue_from Exception, :with => :render_500
-		rescue_from ActiveRecord::RecordNotFound, :with => :render_404
-		rescue_from ActionController::RoutingError, :with => :render_404
-	end
 
-	def render_500
-		render :template => "errors/500.html.erb", :layout => "message", :status => "500"
-	end
+   layout Proc.new { |controller| controller.devise_controller? ? 'login' : 'application' }
 
-	def render_404
-		render :template => "errors/404.html.erb", :layout => "message",  :status => "404"
-	end  
+unless Rails.application.config.consider_all_requests_local
+    rescue_from Exception, with: lambda { |exception| render_error 500, exception }
+    rescue_from ActionController::RoutingError, ActionController::UnknownController, ::AbstractController::ActionNotFound, ActiveRecord::RecordNotFound, with: lambda { |exception| render_error 404, exception }
+  end
+
+  private
+  def render_error(status, exception)
+    respond_to do |format|
+      format.html { render template: "errors/error_#{status}", layout: 'layouts/application', status: status }
+      format.all { render nothing: true, status: status }
+    end
+  end
+   
+   
 	 def resource_name
 	    :user
 	  end

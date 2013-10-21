@@ -2,29 +2,76 @@
 <html>
 <head>
   <title><%= APP_CONFIG['site']['title']%></title>
-  <%= stylesheet_link_tag    "bootstrap.css", "bootstrap-responsive.css","bootstrap-lightbox.css","bootstrap-wysihtml5.css", "dashboard", :media => "all" %>
+  <%= stylesheet_link_tag    "dashboard/bootstrap.min.css", "dashboard/font-awesome.min.css","dashboard/ui-lightness/jquery-ui-1.10.0.custom.min.css","dashboard/base-admin-2.css", "/dashboard/base-admin-2-responsive.css", "dashboard/pages/dashboard.css", "dashboard/custom.css", "dashboard", :media => "all" %>
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600" rel="stylesheet" />
+
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 	<%= render "layouts/menu_dashboard" %>
-<div id="wrap">
+
+
+
     
-  <div class="content-fluid">
+<div class="subnavbar">
+
+  <div class="subnavbar-inner">
+  
     <div class="container">
+      
+      <a class="btn-subnavbar collapsed" data-toggle="collapse" data-target=".subnav-collapse">
+        <i class="icon-reorder"></i>
+      </a>
+
+      <div class="subnav-collapse">
+        <ul class="mainnav">
+        
+          <li class="active">
+            <%= link_to dashboard_path do%>
+              <i class="icon-home"></i>
+              <span>Home</span>
+            <%end%>  
+          </li>
+          
+          <li>         
+            <%= link_to postnotices_path do%>
+              <i class="icon-copy"></i>
+              <span>Notícias</span>
+            <%end%>  
+          </li>
+          
+          <li> 
+            <%= link_to cities_path do%>
+               <i class="icon-building"></i>
+              <span>Cidades</span>
+            <%end%>           
+          </li>
+          
+          <li>  
+            <%= link_to categories_path do%>
+              <i class="icon-th-list"></i>
+              <span>Categorias</span>
+            <%end%>          
+          </li>
+        
+        </ul>
+      </div> <!-- /.subnav-collapse -->
+
+    </div> <!-- /container -->
+  
+  </div> <!-- /subnavbar-inner -->
+
+</div> <!-- /subnavbar -->
+
+
       <%= yield %>
-    </div>
-  </div>
-    
-      <div id="push"></div>
-    </div>
 
 
-<div id="footer">
-      <div class="container">
-        <p class="muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
-      </div>
-    </div>
+
+
+
 
 
 <div id="fb-root"></div>
@@ -55,5 +102,19 @@ html, body {
 }
 
 </style>
+
+
+<script src="assets/dashboard/libs/jquery-1.8.3.min.js"></script>
+<script src="assets/dashboard/libs/jquery-ui-1.10.0.custom.min.js"></script>
+<script src="assets/dashboard/libs/bootstrap.min.js"></script>
+
+<script src="assets/dashboard/plugins/flot/jquery.flot.js"></script>
+<script src="assets/dashboard/plugins/flot/jquery.flot.pie.js"></script>
+<script src="assets/dashboard/plugins/flot/jquery.flot.resize.js"></script>
+
+<script src="assets/dashboard/Application.js"></script>
+
+<script src="assets/dashboard/charts/area.js"></script>
+<script src="assets/dashboard/charts/donut.js"></script>
 </body>
 </html>

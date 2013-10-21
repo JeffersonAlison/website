@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131017185205) do
+ActiveRecord::Schema.define(:version => 20131020170459) do
 
   create_table "banners", :force => true do |t|
     t.string   "name"
@@ -56,6 +56,7 @@ ActiveRecord::Schema.define(:version => 20131017185205) do
     t.string   "video"
     t.text     "descbanner"
     t.integer  "reserved",     :default => 0
+    t.date     "startdate"
   end
 
   add_index "postnotices", ["categorie_id"], :name => "index_postnotices_on_categorie_id"

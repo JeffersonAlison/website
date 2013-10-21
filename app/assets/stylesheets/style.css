@@ -477,6 +477,7 @@ section#slider {
 .flexslider .slides img {
     width: 100%;
     display: block;
+    height: 400px;
 }
 .flex-pauseplay span {text-transform: capitalize;}
 .no-js .slides > li:first-child {display: block;}
@@ -1295,6 +1296,9 @@ article.span3 h4{
     float: left;
     margin-right: 15px;
     border: solid 4px #e7e7e7;
+    height: 50px;
+    width: 60px;
+    margin-bottom: 10px;
 }
 .post-widget a{
     font-weight: 600;
